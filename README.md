@@ -19,3 +19,14 @@ SECRET_KEY=""
  
 npm install
 npm run start
+
+###3. Set up an AWS EC2 instance
+
+Create an IAM user & login to your AWS Console
+Access Type - Password
+Permissions - Admin
+Create an EC2 instance
+Select an OS image - Ubuntu
+Create a new key pair & download .pem file
+Instance type - t2.micro
+Connecting to the instance using ssh
