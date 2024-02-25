@@ -33,6 +33,8 @@ Create a new key pair & download .pem file
 ssh -i instance.pem ubunutu@<IP_ADDRESS> 
 
 ###C. Configuring Ubuntu on remote VM
+git clone https://github.com/hannahmaina/aws-project.git
+ 
 
   Deploying the project on AWS
   
